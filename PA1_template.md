@@ -118,7 +118,7 @@ with(totalst,hist(steps,col="blue",breaks=70,main = NULL,xlab = NULL))
 title(main="Histogram of Total Steps per Day",xlab="Total Steps")
 ```
 
-![plot of chunk question 2b](figure/question 2b-1.png)
+![plot of chunk question 2b](figure/question%202b-1.png)
 
  c Calculate and report the mean and median of the total number of steps taken per day.
 For the mean and median we have to call the summary function for the steps variable of the data set that created in question 2a
@@ -148,7 +148,7 @@ with(averageint,plot(interval,steps,type="l",ylab="Average Number of Steps"))
 title(main="Average Number of Steps per 5 Minutes Interval")
 ```
 
-![plot of chunk question 3a](figure/question 3a-1.png)
+![plot of chunk question 3a](figure/question%203a-1.png)
 
  b Which 5-minute interval, on average across all the days in the data set, contains the maximum number of steps?
 
@@ -207,7 +207,7 @@ with(totalstna.re,hist(steps,col="blue",breaks = 70,main = NULL,xlab = NULL))
 title(main="Histogram of Total Steps per Day",xlab="Total Steps")
 ```
 
-![plot of chunk question 4d](figure/question 4d-1.png)
+![plot of chunk question 4d](figure/question%204d-1.png)
 
 The mean and median of total number of steps taken per day for the data set with the imputed NAs values. 
 
@@ -249,4 +249,4 @@ labs(y="Average Number of Steps")+
 labs(title="Average Number of Steps per 5 minutes Interval")
 ```
 
-![plot of chunk question 5b](figure/question 5b-1.png)
+![plot of chunk question 5b](figure/question%205b-1.png)
